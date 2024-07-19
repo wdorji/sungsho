@@ -1,0 +1,38 @@
+.container {
+  width: 200px;
+  height: 145px;
+  background: linear-gradient(153deg, rgb(116, 56, 216), rgb(18, 150, 170) 74%);
+  padding: 5px;
+  color: white;
+}
+
+.main {
+  width: 190px;
+  height: 135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.title {
+  font-size: x-large;
+}
+
+.description {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.code {
+  background: #fafafa;
+  color: grey;
+  border-radius: 5px;
+  padding: 20px;
+  font: small Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}

@@ -2,8 +2,6 @@ import { useState } from "react";
 import styles from "../../styles/Pages.module.css";
 import { Switch, FormControl, FormLabel, Button } from "@chakra-ui/react";
 
-const apiToken = "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";
-
 export default function Index({ navigateToPage }) {
   const [switchState, setSwitchState] = useState(false);
   const processPage = async () => {
